@@ -9,7 +9,10 @@ It's been an amazing experience developing the app over the course of March 2025
 my app presentation at the Boston College Arts Festival. 
 
 Below you will find screenshots of my app and a video filmed by me to demostrate the functions currently implemented in my app! 
-I hope you enjoy my first app! :)
+I hope you enjoy my first app! :) 
+
+I am a Boston College MCAS student in class of 2026. Here is my linkedin page to get in touch! 
+www.linkedin.com/in/zhejun-zhang-388152278
 
 ## Screenshots
 
@@ -48,3 +51,10 @@ https://github.com/user-attachments/assets/9128d581-7d03-4c53-a70b-aedda6272264
 the code for inviting friends via Game Center written without testing but connecting to Game Center works.)
 - Custom animated backgrounds using SpriteKit
 - Sketch-style interface and custom music
+
+## Techniques Used 
+
+Lastly, I would like to provide a list of the techniques used in my app. It is the poster I will be using in the Arts Festival.
+You can find my contact info as well!
+![Student App Showcase Template - SwiftUI](https://github.com/user-attachments/assets/2a335c15-84e3-4f8e-9e4e-6984a255b0a7)
+
