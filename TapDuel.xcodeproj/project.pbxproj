@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F144D36B2DB1F9AE0038A2F7 /* HomeViewBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144D36A2DB1F9AE0038A2F7 /* HomeViewBackground.swift */; };
+		F144D3712DB5E9FC0038A2F7 /* LobbyViewBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144D3702DB5E9FC0038A2F7 /* LobbyViewBackground.swift */; };
+		F144D3822DB749170038A2F7 /* DissmissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144D3812DB749170038A2F7 /* DissmissButton.swift */; };
+		F144D3852DB74E2B0038A2F7 /* GameCenterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144D3842DB74E2B0038A2F7 /* GameCenterManager.swift */; };
+		F144D3892DB758620038A2F7 /* GameCenterMultiplayerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144D3882DB758620038A2F7 /* GameCenterMultiplayerCoordinator.swift */; };
+		F144D38B2DB759230038A2F7 /* GameCenterMatchmakerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144D38A2DB759230038A2F7 /* GameCenterMatchmakerView.swift */; };
+		F144D3C52DB844450038A2F7 /* GameHomeViewBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144D3C42DB844450038A2F7 /* GameHomeViewBackground.swift */; };
+		F144D3CF2DB8458C0038A2F7 /* GameConfirmViewBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144D3CE2DB8458C0038A2F7 /* GameConfirmViewBackground.swift */; };
+		F144D3D32DB84B540038A2F7 /* VictoryViewBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144D3D22DB84B540038A2F7 /* VictoryViewBackground.swift */; };
+		F144D3D52DB84CC00038A2F7 /* GameReadyViewBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144D3D42DB84CC00038A2F7 /* GameReadyViewBackground.swift */; };
+		F144D3FE2DB87E2E0038A2F7 /* GameViewBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144D3FD2DB87E2E0038A2F7 /* GameViewBackground.swift */; };
+		F144D4002DB8A1420038A2F7 /* TriangleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144D3FF2DB8A1420038A2F7 /* TriangleBackground.swift */; };
+		F144D4022DB8A14B0038A2F7 /* SquareBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144D4012DB8A14B0038A2F7 /* SquareBackground.swift */; };
+		F144D4042DB8A14E0038A2F7 /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144D4032DB8A14E0038A2F7 /* CircleBackground.swift */; };
+		F154F7622DA76D940059B7F2 /* VictoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F154F7612DA76D940059B7F2 /* VictoryView.swift */; };
+		F19101722D95EE33005954AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F191016C2D95EE33005954AD /* Preview Assets.xcassets */; };
+		F19101732D95EE33005954AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F191016E2D95EE33005954AD /* Assets.xcassets */; };
+		F19101742D95EE33005954AD /* LobbyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F191016F2D95EE33005954AD /* LobbyView.swift */; };
+		F19101752D95EE33005954AD /* TapDuelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19101702D95EE33005954AD /* TapDuelApp.swift */; };
+		F19101772D95EE46005954AD /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19101762D95EE3F005954AD /* FirestoreManager.swift */; };
+		F1A49CD22D99DAE9003184B5 /* MusicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A49CD12D99DADB003184B5 /* MusicManager.swift */; };
+		F1B6F3E32D95FF6100D7906B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B6F3E22D95FF5800D7906B /* HomeView.swift */; };
+		F1B6F3EB2D96065B00D7906B /* SettingsPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B6F3EA2D96065400D7906B /* SettingsPopupView.swift */; };
+		F1B6F3ED2D960A3000D7906B /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B6F3EC2D960A2C00D7906B /* GameView.swift */; };
+		F1B6F3F22D98F05E00D7906B /* CustomLobbyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B6F3F12D98F05100D7906B /* CustomLobbyButton.swift */; };
+		F1CB7BB02D95F54500CD804E /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F1CB7BAF2D95F54500CD804E /* FirebaseAnalytics */; };
+		F1CB7BB22D95F54500CD804E /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = F1CB7BB12D95F54500CD804E /* FirebaseAnalyticsOnDeviceConversion */; };
+		F1CB7BB42D95F54500CD804E /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = F1CB7BB32D95F54500CD804E /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		F1CB7BB62D95F54500CD804E /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = F1CB7BB52D95F54500CD804E /* FirebaseAppCheck */; };
+		F1CB7BB82D95F54500CD804E /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = F1CB7BB72D95F54500CD804E /* FirebaseAppDistribution-Beta */; };
+		F1CB7BBA2D95F54500CD804E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F1CB7BB92D95F54500CD804E /* FirebaseAuth */; };
+		F1CB7BBC2D95F54500CD804E /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F1CB7BBB2D95F54500CD804E /* FirebaseAuthCombine-Community */; };
+		F1CB7BBE2D95F54500CD804E /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = F1CB7BBD2D95F54500CD804E /* FirebaseCore */; };
+		F1CB7BC02D95F54500CD804E /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = F1CB7BBF2D95F54500CD804E /* FirebaseCrashlytics */; };
+		F1CB7BC22D95F54500CD804E /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = F1CB7BC12D95F54500CD804E /* FirebaseDatabase */; };
+		F1CB7BC42D95F54500CD804E /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = F1CB7BC32D95F54500CD804E /* FirebaseDynamicLinks */; };
+		F1CB7BC62D95F54500CD804E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F1CB7BC52D95F54500CD804E /* FirebaseFirestore */; };
+		F1CB7BC82D95F54500CD804E /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F1CB7BC72D95F54500CD804E /* FirebaseFirestoreCombine-Community */; };
+		F1CB7BCA2D95F54500CD804E /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = F1CB7BC92D95F54500CD804E /* FirebaseFunctions */; };
+		F1CB7BCC2D95F54500CD804E /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F1CB7BCB2D95F54500CD804E /* FirebaseFunctionsCombine-Community */; };
+		F1CB7BCE2D95F54500CD804E /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = F1CB7BCD2D95F54500CD804E /* FirebaseInAppMessaging-Beta */; };
+		F1CB7BD02D95F54500CD804E /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = F1CB7BCF2D95F54500CD804E /* FirebaseInstallations */; };
+		F1CB7BD22D95F54500CD804E /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = F1CB7BD12D95F54500CD804E /* FirebaseMLModelDownloader */; };
+		F1CB7BD42D95F54500CD804E /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = F1CB7BD32D95F54500CD804E /* FirebaseMessaging */; };
+		F1CB7BD62D95F54500CD804E /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = F1CB7BD52D95F54500CD804E /* FirebasePerformance */; };
+		F1CB7BD82D95F54500CD804E /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = F1CB7BD72D95F54500CD804E /* FirebaseRemoteConfig */; };
+		F1CB7BDA2D95F54500CD804E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = F1CB7BD92D95F54500CD804E /* FirebaseStorage */; };
+		F1CB7BDC2D95F54500CD804E /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = F1CB7BDB2D95F54500CD804E /* FirebaseStorageCombine-Community */; };
+		F1CB7BDE2D95F54500CD804E /* FirebaseVertexAI in Frameworks */ = {isa = PBXBuildFile; productRef = F1CB7BDD2D95F54500CD804E /* FirebaseVertexAI */; };
+		F1CC7A152D9B7C49009BDA70 /* GameHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CC7A142D9B7C49009BDA70 /* GameHomeView.swift */; };
+		F1CC7A172D9B83CF009BDA70 /* GameConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CC7A162D9B83C5009BDA70 /* GameConfirmView.swift */; };
+		F1CC7A1D2D9C6A3A009BDA70 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CC7A1C2D9C6A3A009BDA70 /* GameManager.swift */; };
+		F1CC7A232D9CCAFC009BDA70 /* FingerTapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CC7A222D9CCAFC009BDA70 /* FingerTapViewRepresentable.swift */; };
+		F1CC7A292D9E282F009BDA70 /* GameReadyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CC7A282D9E282A009BDA70 /* GameReadyView.swift */; };
+		F1DE709C2D95D17100AA9193 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F1DE709B2D95D17100AA9193 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F144D36A2DB1F9AE0038A2F7 /* HomeViewBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewBackground.swift; sourceTree = "<group>"; };
+		F144D3702DB5E9FC0038A2F7 /* LobbyViewBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyViewBackground.swift; sourceTree = "<group>"; };
+		F144D3812DB749170038A2F7 /* DissmissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DissmissButton.swift; sourceTree = "<group>"; };
+		F144D3832DB74B590038A2F7 /* TapDuel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TapDuel.entitlements; sourceTree = "<group>"; };
+		F144D3842DB74E2B0038A2F7 /* GameCenterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCenterManager.swift; sourceTree = "<group>"; };
+		F144D3882DB758620038A2F7 /* GameCenterMultiplayerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCenterMultiplayerCoordinator.swift; sourceTree = "<group>"; };
+		F144D38A2DB759230038A2F7 /* GameCenterMatchmakerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCenterMatchmakerView.swift; sourceTree = "<group>"; };
+		F144D3C42DB844450038A2F7 /* GameHomeViewBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHomeViewBackground.swift; sourceTree = "<group>"; };
+		F144D3CE2DB8458C0038A2F7 /* GameConfirmViewBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameConfirmViewBackground.swift; sourceTree = "<group>"; };
+		F144D3D22DB84B540038A2F7 /* VictoryViewBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VictoryViewBackground.swift; sourceTree = "<group>"; };
+		F144D3D42DB84CC00038A2F7 /* GameReadyViewBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameReadyViewBackground.swift; sourceTree = "<group>"; };
+		F144D3FD2DB87E2E0038A2F7 /* GameViewBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewBackground.swift; sourceTree = "<group>"; };
+		F144D3FF2DB8A1420038A2F7 /* TriangleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleBackground.swift; sourceTree = "<group>"; };
+		F144D4012DB8A14B0038A2F7 /* SquareBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareBackground.swift; sourceTree = "<group>"; };
+		F144D4032DB8A14E0038A2F7 /* CircleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
+		F154F7612DA76D940059B7F2 /* VictoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VictoryView.swift; sourceTree = "<group>"; };
+		F191016C2D95EE33005954AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F191016E2D95EE33005954AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F191016F2D95EE33005954AD /* LobbyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyView.swift; sourceTree = "<group>"; };
+		F19101702D95EE33005954AD /* TapDuelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapDuelApp.swift; sourceTree = "<group>"; };
+		F19101762D95EE3F005954AD /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
+		F1A49CD12D99DADB003184B5 /* MusicManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicManager.swift; sourceTree = "<group>"; };
+		F1B6F3E22D95FF5800D7906B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F1B6F3EA2D96065400D7906B /* SettingsPopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPopupView.swift; sourceTree = "<group>"; };
+		F1B6F3EC2D960A2C00D7906B /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		F1B6F3F02D97555200D7906B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F1B6F3F12D98F05100D7906B /* CustomLobbyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLobbyButton.swift; sourceTree = "<group>"; };
+		F1CC7A142D9B7C49009BDA70 /* GameHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHomeView.swift; sourceTree = "<group>"; };
+		F1CC7A162D9B83C5009BDA70 /* GameConfirmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameConfirmView.swift; sourceTree = "<group>"; };
+		F1CC7A1C2D9C6A3A009BDA70 /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		F1CC7A222D9CCAFC009BDA70 /* FingerTapViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerTapViewRepresentable.swift; sourceTree = "<group>"; };
+		F1CC7A282D9E282A009BDA70 /* GameReadyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameReadyView.swift; sourceTree = "<group>"; };
+		F1DE709B2D95D17100AA9193 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F1E9486A2D922C93008EDBBD /* TapDuel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapDuel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F144D37E2DB73DE90038A2F7 /* Text Styles */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Text Styles";
+			sourceTree = "<group>";
+		};
+		F1E39E632D99F03500DF6932 /* Music */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Music;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1E948672D922C93008EDBBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CB7BC82D95F54500CD804E /* FirebaseFirestoreCombine-Community in Frameworks */,
+				F1CB7BDE2D95F54500CD804E /* FirebaseVertexAI in Frameworks */,
+				F1CB7BCA2D95F54500CD804E /* FirebaseFunctions in Frameworks */,
+				F1CB7BD62D95F54500CD804E /* FirebasePerformance in Frameworks */,
+				F1CB7BDC2D95F54500CD804E /* FirebaseStorageCombine-Community in Frameworks */,
+				F1CB7BD82D95F54500CD804E /* FirebaseRemoteConfig in Frameworks */,
+				F1CB7BC22D95F54500CD804E /* FirebaseDatabase in Frameworks */,
+				F1CB7BC42D95F54500CD804E /* FirebaseDynamicLinks in Frameworks */,
+				F1CB7BB62D95F54500CD804E /* FirebaseAppCheck in Frameworks */,
+				F1CB7BBA2D95F54500CD804E /* FirebaseAuth in Frameworks */,
+				F1CB7BB02D95F54500CD804E /* FirebaseAnalytics in Frameworks */,
+				F1CB7BC62D95F54500CD804E /* FirebaseFirestore in Frameworks */,
+				F1CB7BD42D95F54500CD804E /* FirebaseMessaging in Frameworks */,
+				F1CB7BD02D95F54500CD804E /* FirebaseInstallations in Frameworks */,
+				F1CB7BCC2D95F54500CD804E /* FirebaseFunctionsCombine-Community in Frameworks */,
+				F1CB7BB82D95F54500CD804E /* FirebaseAppDistribution-Beta in Frameworks */,
+				F1CB7BB42D95F54500CD804E /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				F1CB7BCE2D95F54500CD804E /* FirebaseInAppMessaging-Beta in Frameworks */,
+				F1CB7BBC2D95F54500CD804E /* FirebaseAuthCombine-Community in Frameworks */,
+				F1CB7BC02D95F54500CD804E /* FirebaseCrashlytics in Frameworks */,
+				F1CB7BD22D95F54500CD804E /* FirebaseMLModelDownloader in Frameworks */,
+				F1CB7BDA2D95F54500CD804E /* FirebaseStorage in Frameworks */,
+				F1CB7BBE2D95F54500CD804E /* FirebaseCore in Frameworks */,
+				F1CB7BB22D95F54500CD804E /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F184448F2D95F12900D6935D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F191016D2D95EE33005954AD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F191016C2D95EE33005954AD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F19101712D95EE33005954AD /* TapDuel */ = {
+			isa = PBXGroup;
+			children = (
+				F144D3832DB74B590038A2F7 /* TapDuel.entitlements */,
+				F1B6F3F02D97555200D7906B /* Info.plist */,
+				F191016D2D95EE33005954AD /* Preview Content */,
+				F191016E2D95EE33005954AD /* Assets.xcassets */,
+				F1E39E632D99F03500DF6932 /* Music */,
+				F144D37E2DB73DE90038A2F7 /* Text Styles */,
+				F1B6F3E22D95FF5800D7906B /* HomeView.swift */,
+				F144D36A2DB1F9AE0038A2F7 /* HomeViewBackground.swift */,
+				F191016F2D95EE33005954AD /* LobbyView.swift */,
+				F144D3702DB5E9FC0038A2F7 /* LobbyViewBackground.swift */,
+				F144D3812DB749170038A2F7 /* DissmissButton.swift */,
+				F1B6F3F12D98F05100D7906B /* CustomLobbyButton.swift */,
+				F1B6F3EA2D96065400D7906B /* SettingsPopupView.swift */,
+				F1CC7A142D9B7C49009BDA70 /* GameHomeView.swift */,
+				F144D3C42DB844450038A2F7 /* GameHomeViewBackground.swift */,
+				F1CC7A162D9B83C5009BDA70 /* GameConfirmView.swift */,
+				F144D3CE2DB8458C0038A2F7 /* GameConfirmViewBackground.swift */,
+				F1CC7A282D9E282A009BDA70 /* GameReadyView.swift */,
+				F144D3D42DB84CC00038A2F7 /* GameReadyViewBackground.swift */,
+				F1B6F3EC2D960A2C00D7906B /* GameView.swift */,
+				F144D3FD2DB87E2E0038A2F7 /* GameViewBackground.swift */,
+				F144D3FF2DB8A1420038A2F7 /* TriangleBackground.swift */,
+				F144D4012DB8A14B0038A2F7 /* SquareBackground.swift */,
+				F144D4032DB8A14E0038A2F7 /* CircleBackground.swift */,
+				F154F7612DA76D940059B7F2 /* VictoryView.swift */,
+				F144D3D22DB84B540038A2F7 /* VictoryViewBackground.swift */,
+				F1CC7A222D9CCAFC009BDA70 /* FingerTapViewRepresentable.swift */,
+				F1CC7A1C2D9C6A3A009BDA70 /* GameManager.swift */,
+				F1A49CD12D99DADB003184B5 /* MusicManager.swift */,
+				F144D3842DB74E2B0038A2F7 /* GameCenterManager.swift */,
+				F144D3882DB758620038A2F7 /* GameCenterMultiplayerCoordinator.swift */,
+				F144D38A2DB759230038A2F7 /* GameCenterMatchmakerView.swift */,
+				F19101762D95EE3F005954AD /* FirestoreManager.swift */,
+				F19101702D95EE33005954AD /* TapDuelApp.swift */,
+			);
+			path = TapDuel;
+			sourceTree = "<group>";
+		};
+		F1E948612D922C93008EDBBD = {
+			isa = PBXGroup;
+			children = (
+				F19101712D95EE33005954AD /* TapDuel */,
+				F1DE709B2D95D17100AA9193 /* GoogleService-Info.plist */,
+				F184448F2D95F12900D6935D /* Frameworks */,
+				F1E9486B2D922C93008EDBBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1E9486B2D922C93008EDBBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1E9486A2D922C93008EDBBD /* TapDuel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1E948692D922C93008EDBBD /* TapDuel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1E948782D922C95008EDBBD /* Build configuration list for PBXNativeTarget "TapDuel" */;
+			buildPhases = (
+				F1E948662D922C93008EDBBD /* Sources */,
+				F1E948672D922C93008EDBBD /* Frameworks */,
+				F1E948682D922C93008EDBBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F144D37E2DB73DE90038A2F7 /* Text Styles */,
+				F1E39E632D99F03500DF6932 /* Music */,
+			);
+			name = TapDuel;
+			packageProductDependencies = (
+				F1CB7BAF2D95F54500CD804E /* FirebaseAnalytics */,
+				F1CB7BB12D95F54500CD804E /* FirebaseAnalyticsOnDeviceConversion */,
+				F1CB7BB32D95F54500CD804E /* FirebaseAnalyticsWithoutAdIdSupport */,
+				F1CB7BB52D95F54500CD804E /* FirebaseAppCheck */,
+				F1CB7BB72D95F54500CD804E /* FirebaseAppDistribution-Beta */,
+				F1CB7BB92D95F54500CD804E /* FirebaseAuth */,
+				F1CB7BBB2D95F54500CD804E /* FirebaseAuthCombine-Community */,
+				F1CB7BBD2D95F54500CD804E /* FirebaseCore */,
+				F1CB7BBF2D95F54500CD804E /* FirebaseCrashlytics */,
+				F1CB7BC12D95F54500CD804E /* FirebaseDatabase */,
+				F1CB7BC32D95F54500CD804E /* FirebaseDynamicLinks */,
+				F1CB7BC52D95F54500CD804E /* FirebaseFirestore */,
+				F1CB7BC72D95F54500CD804E /* FirebaseFirestoreCombine-Community */,
+				F1CB7BC92D95F54500CD804E /* FirebaseFunctions */,
+				F1CB7BCB2D95F54500CD804E /* FirebaseFunctionsCombine-Community */,
+				F1CB7BCD2D95F54500CD804E /* FirebaseInAppMessaging-Beta */,
+				F1CB7BCF2D95F54500CD804E /* FirebaseInstallations */,
+				F1CB7BD12D95F54500CD804E /* FirebaseMLModelDownloader */,
+				F1CB7BD32D95F54500CD804E /* FirebaseMessaging */,
+				F1CB7BD52D95F54500CD804E /* FirebasePerformance */,
+				F1CB7BD72D95F54500CD804E /* FirebaseRemoteConfig */,
+				F1CB7BD92D95F54500CD804E /* FirebaseStorage */,
+				F1CB7BDB2D95F54500CD804E /* FirebaseStorageCombine-Community */,
+				F1CB7BDD2D95F54500CD804E /* FirebaseVertexAI */,
+			);
+			productName = TapDuel;
+			productReference = F1E9486A2D922C93008EDBBD /* TapDuel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1E948622D922C93008EDBBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					F1E948692D922C93008EDBBD = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = F1E948652D922C93008EDBBD /* Build configuration list for PBXProject "TapDuel" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1E948612D922C93008EDBBD;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F1CB7BAE2D95F54500CD804E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F1E9486B2D922C93008EDBBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1E948692D922C93008EDBBD /* TapDuel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1E948682D922C93008EDBBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19101722D95EE33005954AD /* Preview Assets.xcassets in Resources */,
+				F19101732D95EE33005954AD /* Assets.xcassets in Resources */,
+				F1DE709C2D95D17100AA9193 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1E948662D922C93008EDBBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1B6F3EB2D96065B00D7906B /* SettingsPopupView.swift in Sources */,
+				F144D3FE2DB87E2E0038A2F7 /* GameViewBackground.swift in Sources */,
+				F144D3C52DB844450038A2F7 /* GameHomeViewBackground.swift in Sources */,
+				F1CC7A1D2D9C6A3A009BDA70 /* GameManager.swift in Sources */,
+				F144D3852DB74E2B0038A2F7 /* GameCenterManager.swift in Sources */,
+				F144D4022DB8A14B0038A2F7 /* SquareBackground.swift in Sources */,
+				F1A49CD22D99DAE9003184B5 /* MusicManager.swift in Sources */,
+				F154F7622DA76D940059B7F2 /* VictoryView.swift in Sources */,
+				F144D36B2DB1F9AE0038A2F7 /* HomeViewBackground.swift in Sources */,
+				F19101742D95EE33005954AD /* LobbyView.swift in Sources */,
+				F144D3D32DB84B540038A2F7 /* VictoryViewBackground.swift in Sources */,
+				F144D3712DB5E9FC0038A2F7 /* LobbyViewBackground.swift in Sources */,
+				F144D3892DB758620038A2F7 /* GameCenterMultiplayerCoordinator.swift in Sources */,
+				F1B6F3E32D95FF6100D7906B /* HomeView.swift in Sources */,
+				F19101772D95EE46005954AD /* FirestoreManager.swift in Sources */,
+				F1B6F3F22D98F05E00D7906B /* CustomLobbyButton.swift in Sources */,
+				F144D3CF2DB8458C0038A2F7 /* GameConfirmViewBackground.swift in Sources */,
+				F144D38B2DB759230038A2F7 /* GameCenterMatchmakerView.swift in Sources */,
+				F144D4042DB8A14E0038A2F7 /* CircleBackground.swift in Sources */,
+				F1CC7A172D9B83CF009BDA70 /* GameConfirmView.swift in Sources */,
+				F1B6F3ED2D960A3000D7906B /* GameView.swift in Sources */,
+				F1CC7A292D9E282F009BDA70 /* GameReadyView.swift in Sources */,
+				F144D3D52DB84CC00038A2F7 /* GameReadyViewBackground.swift in Sources */,
+				F1CC7A232D9CCAFC009BDA70 /* FingerTapViewRepresentable.swift in Sources */,
+				F144D4002DB8A1420038A2F7 /* TriangleBackground.swift in Sources */,
+				F19101752D95EE33005954AD /* TapDuelApp.swift in Sources */,
+				F144D3822DB749170038A2F7 /* DissmissButton.swift in Sources */,
+				F1CC7A152D9B7C49009BDA70 /* GameHomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F1E948762D922C95008EDBBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1E948772D922C95008EDBBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1E948792D922C95008EDBBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TapDuel/TapDuel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TapDuel/Preview Content\"";
+				DEVELOPMENT_TEAM = 24RYMVF7CF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TapDuel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhejun.TapDuelTest12345678;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F1E9487A2D922C95008EDBBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TapDuel/TapDuel.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TapDuel/Preview Content\"";
+				DEVELOPMENT_TEAM = 24RYMVF7CF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TapDuel/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhejun.TapDuelTest12345678;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1E948652D922C93008EDBBD /* Build configuration list for PBXProject "TapDuel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E948762D922C95008EDBBD /* Debug */,
+				F1E948772D922C95008EDBBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1E948782D922C95008EDBBD /* Build configuration list for PBXNativeTarget "TapDuel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E948792D922C95008EDBBD /* Debug */,
+				F1E9487A2D922C95008EDBBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F1CB7BAE2D95F54500CD804E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F1CB7BAF2D95F54500CD804E /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1CB7BAE2D95F54500CD804E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		F1CB7BB12D95F54500CD804E /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1CB7BAE2D95F54500CD804E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		F1CB7BB32D95F54500CD804E /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1CB7BAE2D95F54500CD804E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		F1CB7BB52D95F54500CD804E /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1CB7BAE2D95F54500CD804E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		F1CB7BB72D95F54500CD804E /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1CB7BAE2D95F54500CD804E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		F1CB7BB92D95F54500CD804E /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1CB7BAE2D95F54500CD804E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F1CB7BBB2D95F54500CD804E /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1CB7BAE2D95F54500CD804E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		F1CB7BBD2D95F54500CD804E /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1CB7BAE2D95F54500CD804E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		F1CB7BBF2D95F54500CD804E /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1CB7BAE2D95F54500CD804E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		F1CB7BC12D95F54500CD804E /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1CB7BAE2D95F54500CD804E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		F1CB7BC32D95F54500CD804E /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1CB7BAE2D95F54500CD804E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDynamicLinks;
+		};
+		F1CB7BC52D95F54500CD804E /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1CB7BAE2D95F54500CD804E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		F1CB7BC72D95F54500CD804E /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1CB7BAE2D95F54500CD804E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		F1CB7BC92D95F54500CD804E /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1CB7BAE2D95F54500CD804E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		F1CB7BCB2D95F54500CD804E /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1CB7BAE2D95F54500CD804E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		F1CB7BCD2D95F54500CD804E /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1CB7BAE2D95F54500CD804E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		F1CB7BCF2D95F54500CD804E /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1CB7BAE2D95F54500CD804E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		F1CB7BD12D95F54500CD804E /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1CB7BAE2D95F54500CD804E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMLModelDownloader;
+		};
+		F1CB7BD32D95F54500CD804E /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1CB7BAE2D95F54500CD804E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		F1CB7BD52D95F54500CD804E /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1CB7BAE2D95F54500CD804E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		F1CB7BD72D95F54500CD804E /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1CB7BAE2D95F54500CD804E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		F1CB7BD92D95F54500CD804E /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1CB7BAE2D95F54500CD804E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		F1CB7BDB2D95F54500CD804E /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1CB7BAE2D95F54500CD804E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		F1CB7BDD2D95F54500CD804E /* FirebaseVertexAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F1CB7BAE2D95F54500CD804E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseVertexAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F1E948622D922C93008EDBBD /* Project object */;
+}
